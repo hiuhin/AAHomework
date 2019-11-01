@@ -69,7 +69,6 @@ class Map
     end
 
     def show
-        @arr
+        @arr.dup
     end
 end
-
